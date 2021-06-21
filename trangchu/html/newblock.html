@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bt4 -->
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+ <!-- Optional theme -->
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">  
+<!-- //bt4 -->
+   
+        <!-- bootraps  -->
+        
+        <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="../../app//asset/libs/bootstrap-3.3.7/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css.map">
+  
+   
+    <!-- fontawsome -->
+    <script src="../../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+    <script src="../../node_modules/@fortawesome/fontawesome-free/js/solid.js"></script>
+    <script src="../../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+    <!-- slick -->
+    <link rel="stylesheet" href="../../node_modules/slick-carousel/slick/slick.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- css -->
+
+    <script src="../../node_modules/bootstrap/js/tab.js"></script>
+    
+   
+    
+        
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="row grayBack" id="filmblock">
+        <div class="col-xs-12 block mainMaxWidth" id="homeMovies">
+            <ul class="nav nav-tabs navCenter">
+                <li class="active" style="margin-right:5px;">
+                    <a data-toggle="tab" data-target="#nowShowingFilms" aria-expanded="true" style="font-weight: 700;
+                    font-size: 25px;">Đang Chiếu</a>
+                </li>
+                <li style="margin-left:5px;">
+                    <a href="" data-toggle="tab" data-target="#upComingFilms" aria-expanded="false" style="font-weight: 700;
+                    font-size: 25px;">
+                        Sắp Chiếu
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="nowShowingFilms" class="tab-pane fade wrapSlick slick-initialized slick-slider active in">
+                    <button type="button" class="slick-prev slick-arrow" aria-label="Previous" role="button"></button>
+                    <div class="slick-list draggable" aria-live="polite">
+                        <div class="slick-track" role="listbox" style="opacity: 1;width: 4700px; ">
+                            <div class="slick-slide slick-cloned" data-slick-index="-1" aria-hidden="true" tabindex="-1"
+                                style="width: 940px;">
+                                <div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2339-mortal-kombat">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/mortal-kombat-16177123268718_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">7.5</p>
+                                                        <p>
+                                                            <img class="smallStar" src="../../img/icons/star1.png"
+                                                                alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType">C18</span>
+                                                    Mortal Kombat - Cuộc Chiến Sinh Tử (C18)
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    100 phút - 7 IMDb
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2247-lat-mat-48h">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/lat-mat-48h-16176188609123_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">8.4</p>
+                                                        <p>
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType">C18</span>
+                                                    Lật Mặt: 48h
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    100 phút
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2198-godzilla-vs-kong">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/godzilla-vs-kong-16150074733397_215x318.jpg), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">8.4</p>
+                                                        <p>
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType">C13</span>
+                                                    Godzilla vs. Kong
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    100 phút - 6.5 IMDb
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2590-lich-chieu-nguoi-nhan-ban">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/nguoi-nhan-ban-seobok-c18-16170933054901_215x318.jpg), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">7.9</p>
+                                                        <p>
+
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType">C16</span>
+                                                    Người Nhân Bản - Seobok (C16)
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    114 phút - 6.4 IMDb
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2587-lich-chieu-bantaydietquy">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/ban-tay-diet-quy-evil-expeller-c16-16167437811994_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">8.8</p>
+                                                        <p>
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType">C16</span>
+                                                    Bàn Tay Diệt Quỷ - Evil Expeller (C16)
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    129 phút
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a
+                                                href="https://tix.vn/phim/2599-lich-chieu-ong-nhi-phieu-luu-ki-giai-cuu-cong-chua-kien">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/ong-nhi-phieu-luu-ky-giai-cuu-cong-chua-kien-maya-the-bee-3-the-golden-orb-p-16177793756407_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">5.5</p>
+                                                        <p>
+
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType ageType-general">P</span>
+                                                    Ong Nhí Phiêu Lưu Ký: Giải Cứu Công Chúa Kiến - Maya The Bee 3: The
+                                                    Golden Orb - P
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    129 phút
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a
+                                                href="https://tix.vn/phim/2605-lich-chieu-detective-conan-scarlet-bullet-tham-tu-lung-danh-conan-vien-dan-do">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/detective-conan-scarlet-bullet-tham-tu-lung-danh-conan-vien-dan-do-p-16185623740090_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">5.5</p>
+                                                        <p>
+
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType ">C13</span>
+                                                    Detective Conan: Scarlet Bullet - Thám Tử Lừng Danh Conan: Viên Đạn
+                                                    Đỏ - C13
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    110 phút - 7 IMDb
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 col-xs-12 wrapFilm" style="width: 25%; display: inline-block;">
+                                        <div class="film">
+                                            <a href="https://tix.vn/phim/2607-nhan-doi-tinh-yeu-double-party-c13">
+                                                <div class="filmThumbnail"
+                                                    style="background-image:url(../../img/filmBlock/nhan-doi-tinh-yeu-double-party-c13-16188292910862_215x318.png), url(../../img/default/default-film.webp) ;">
+                                                    <div class="hoverInfo showHover showingDetail">
+                                                        <button class="playTrailer">
+                                                            <img class="playvideo" src="../../img/icons/play-video.png"
+                                                                alt="">
+                                                        </button>
+                                                    </div>
+                                                    <span class="avgPoint">
+                                                        <p class="txtPoint">5.5</p>
+                                                        <p>
+
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.png" alt="">
+                                                            <img src="../../img/icons/star1.2.png" class="half" alt="">
+                                                        </p>
+                                                    </span>
+                                                </div>
+                                            </a>
+                                            <div class="info">
+                                                <div class="nameFilm hideHover">
+                                                    <span class="ageType ">C13</span>
+                                                    Detective Conan: Scarlet Bullet - Thám Tử Lừng Danh Conan: Viên Đạn
+                                                    Đỏ - C13
+                                                </div>
+                                                <div class="infoFilm hideHover">
+                                                    110 phút - 7 IMDb
+                                                </div>
+                                                <div class="showHover">
+                                                    <a href="../../log-in/html/login.php"
+                                                        class="buyNow showingDetail">MUA VÉ</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 21/4 xóa transform  -->
+                                </div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

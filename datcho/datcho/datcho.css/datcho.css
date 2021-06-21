@@ -1,0 +1,246 @@
+*{
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+body{
+    background: url(../../../img/icons/409d80843a4bc815915a.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -moz-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+div{
+    display: block;
+}
+.w3ls-reg{
+    width: 700px;
+    margin: 0 5vw;
+    background: rgba(128, 128, 128, 0.34);
+    padding: 4vw;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+}
+ul.seat_w3ls{
+    margin: 2em 0;
+}
+li.smallBox{
+    text-align: left;
+    display: inline-block;
+    margin-right: 1em;
+    color: #fff;
+}
+.txt-center {
+    text-align: center;
+}
+table {
+    text-align: center;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td {
+    width: 40px;
+    font-weight: 600;
+    font-size: 1em;
+    padding-top: 7px;
+    height: 24px;
+    color: #fff;
+}
+.seatGap {
+    height: 40px;
+}
+@media (max-width: 1920px)
+{
+h1 {
+    font-size: 3.5vw;
+}
+h1{
+    font-size: 2.9em;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 4px 3px 1px rgb(0 0 0 / 22%);
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 0.8em 1vw .9em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h2
+{
+    color: #ff9800;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
+.mr_agilemain {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.agileits-left {
+    flex-basis: 60%;
+    margin-bottom: 1.5em;
+}
+label {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 600;
+}
+.mr_agilemain span {
+    color: #f00;
+}
+input[type="text"], input[type="number"] {
+    padding: 1em;
+    width: 80%;
+    background: transparent;
+    border: 1px solid #888686;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+    color: #fff;
+}
+.agileits-right {
+    flex-basis: 40%;
+    margin-bottom: 1.5em;
+}
+button {
+    background: #f5f5f5;
+    border: none;
+    color: #000;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    cursor: pointer;
+}
+.greenBox::before {
+    content: "";
+    background: Green;
+}
+.smallBox::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.redBox::before {
+    content: "";
+    background: Red;
+}
+.emptyBox::before {
+    content: "";
+    box-shadow: inset 0px 2px 3px 0px rgb(255 152 0), 0px 1px 0px 0px rgb(255 255 255 / 80%);
+    -moz-box-shadow: inset 0px 2px 3px 0px rgb(255, 152, 0), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    background-color: #fff;
+}
+input[type=checkbox] {
+    width: 13px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.seats {
+    border: 1px solid red;
+    background: yellow;
+}
+input[type=checkbox]:before {
+    content: "";
+    width: 25px;
+    height: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    border: 3px solid #ff9800;
+    box-shadow: inset 0px 2px 3px 0px rgb(0 0 0 / 30%), 0px 1px 0px 0px rgb(255 255 255 / 80%);
+    -moz-box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    -webkit-box-shadow: inset 0px 2px 3px 0px rgb(0 0 0 / 30%), 0px 1px 0px 0px rgb(255 255 255 / 80%);
+    background-color: #ffffff;
+}
+.screen {
+    width: 100%;
+    background: #ff9800;
+    margin: 2em 0;
+}
+h2.wthree {
+    padding: 0.8em;
+    font-size: 1.2em;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+}
+.displayerBoxes {
+    margin-top: 2em;
+}
+.txt-center {
+    text-align: center;
+}
+.Displaytable {
+    text-align: center;
+}
+table.Displaytable tr {
+    background: #fff;
+    color: #fff;
+}
+.Displaytable th {
+    width: 100%;
+    padding: 7px 10px;
+    color: #000;
+    font-weight: 600;
+}
+textarea {
+    border: none;
+    background: transparent;
+    resize: none;
+}
+textarea:disabled {
+    color: -internal-light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+    cursor: default;
+    background-color: -internal-light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3));
+    border-color: rgba(118, 118, 118, 0.3);
+}
+.copy-wthree {
+    margin: 3em 0em;
+    text-align: center;
+}
+.copy-wthree p {
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    line-height: 1;
+    padding: 0 1em;
+}
+input[type=checkbox]:checked:before {
+    background-color: Green;
+    font-size: 15px;
+}
