@@ -627,7 +627,7 @@
     <!-- //FilmBlock -->
     <!-- 20/4 chỉnh sửa transform: translate3d -->
     <!--CinemaComplex Block  -->
-    <div class="row session-main grayBack" id="cinemablock">
+    <!-- <div class="row session-main grayBack" id="cinemablock">
         <div class="col-xs-12 block mainMaxWidth" id="homeCinemaComplex">
             <div id="sliderAdsCinema" class="wrapSlick banner-ads">
 
@@ -758,7 +758,7 @@
             </div>
             <div class="noelBand"></div>
         </div>
-    </div>
+    </div> -->
     <!-- CinemaComplex Block -->
     <!-- New block -->
     <div class="row grayBack" id="newsblock">
